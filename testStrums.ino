@@ -12,9 +12,7 @@ int string4Pin = 0;
 
 int delayTime = 5;
 
-void setup()
-
-{
+void setup() {
   pinMode(string1Pin, INPUT);
   pinMode(string2Pin, INPUT);
   pinMode(string3Pin, INPUT);
@@ -24,9 +22,7 @@ void setup()
 
 
 
-void loop()
-
-{
+void loop() {
   string1 = analogRead(string1Pin);
   delay(delayTime);
   string2 = analogRead(string2Pin);
